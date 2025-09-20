@@ -10,4 +10,4 @@ jobs:
     name: Deploy to Production
     runs-on: ubuntu-latest
     steps:
-      - run: curl "https://api.nsm.mosaiq.dev/deploy/${{ secrets.NSM_PROJECT }}/${{ secrets.NSM_KEY }}""
+      - run: curl "https://api.nsm.mosaiq.dev/deploy/${{ secrets.NSM_PROJECT }}/${{ secrets.NSM_KEY }}"
